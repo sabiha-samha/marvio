@@ -1,0 +1,291 @@
+header
+  .container
+
+    a.logo
+      img
+
+    .topbar
+
+      ul.social-wrapper
+
+       li.social-item
+         a.btn.btn-primary
+       
+       li.social-item
+         a.notify-box
+             ionicon
+
+       li.social-item
+         a.social-link
+           ionicon
+
+       .nav-close-btn
+        ionicon
+
+
+    .nav-container
+
+     nav.navbar
+       ul.navbar-list
+         li.navbar-item
+           a.navbar-link
+
+     ul.nav-contact-list
+        li.nav-contact-item
+          a.nav-contact-link
+   
+    .copyright
+ 
+
+
+   
+
+main
+
+   section.section.home.active
+     .container
+
+       .topbar
+           a.logo
+             img.img
+
+           ul.social-wrapper
+              li.social-item
+                a.social-link
+                 ionicon
+              
+              li.social-item
+                a.btn.btn-primary
+                  span.span
+
+           .wrapper
+              .notify-box
+                ionicon
+
+              .nav-open-btn 
+                ionicon
+
+       .page-content
+
+        .title-wrapper
+          p.section-subtitle.has-before
+          h1.h1.section-title
+
+         a.btn-wrapper
+           .play-btn
+             ionicon
+           span.btn-link
+
+         .hero-banner
+           img.banner-1
+           img.banner-2
+  
+       figure.page-banner
+         img.banner-1
+         img.banner-2
+     
+
+   section.section.about
+     .container
+
+       .topbar
+           a.logo
+             img.img
+
+           ul.social-wrapper
+              li.social-item
+                a.social-link
+                 ionicon
+              
+              li.social-item
+                a.btn.btn-primary
+                  span.span
+
+           .wrapper
+              .notify-box
+                ionicon
+
+              .nav-open-btn 
+                ionicon
+        
+       .page-content
+      
+         p.section-subtitle.has-before
+
+         h1.h1.section-title
+
+         p.section-text
+           span.span.hover-underline
+
+         ul.about-list
+           li.about-item
+            .about-card
+               .card-banner
+                 img.w-100
+                 
+               .card-content
+                 span.card-subtitle.has-before
+                 h3.h3.card-title
+                 span.span.card-text
+
+         ul.skill-list
+           li.skill-item
+             .skill-wrapper
+               h4.h4
+               span.progress-value
+
+             data.progress
+               .progressbar 
+
+         figure.about-video-img
+           img.img-cover
+         .playbtn
+
+
+         figure.about-banner
+           img.img-cover
+
+
+         
+
+       figure.page-banner
+        img.banner-1
+        img.banner-2
+
+
+   section.section.portfolio
+     .container
+
+       .topbar
+           a.logo
+             img.img
+
+           ul.social-wrapper
+              li.social-item
+                a.social-link
+                 ionicon
+              
+              li.social-item
+                a.btn.btn-primary
+                  span.span
+
+           .wrapper
+              .notify-box
+                ionicon
+
+              .nav-open-btn 
+                ionicon
+        
+       .page-content
+      
+         p.section-subtitle.has-before
+
+         h1.h1.section-title
+
+         p.section-text
+           span.span.hover-underline
+
+         ul.project-list
+           li.project-item
+            .project-card
+               .project-card-banner
+                 img.img-cover.w-100
+                 
+               .project-card-content
+                 h3.h3.card-title
+                 span.card-subtitle
+
+         figure.portfolio-banner
+           img.img-cover
+
+       figure.page-banner
+        img.banner-1
+        img.banner-2
+
+
+   section.section.contact
+     .container
+
+       .topbar
+           a.logo
+             img.img
+
+           ul.social-wrapper
+              li.social-item
+                a.social-link
+                 ionicon
+              
+              li.social-item
+                a.btn.btn-primary
+                  span.span
+
+           .wrapper
+              .notify-box
+                ionicon
+
+              .nav-open-btn 
+                ionicon
+        
+       .page-content
+      
+         p.section-subtitle.has-before
+
+         h1.h1.section-title
+
+         p.section-text
+           span.span.hover-underline
+
+         ul.contact-list
+           li.contact-item
+            .contact-card
+               .card-banner
+                 img.w-100
+                 
+              .card-content
+                h3.h3.card-title
+
+                ul.contact-card-list
+                  li.contact-card-item
+                    ionicon
+                    a.contact-card-link
+
+
+         .contact-form
+           h2.h2
+           p.section-text
+
+           .input-wrapper
+             input.input-field
+             input.input-field
+
+          .input-wrapper
+             input.input-field
+             input.input-field
+
+           textarea.textarea
+
+           button.btn.submit
+             span.span
+
+
+         figure.banner
+           img.img-cover
+
+
+       figure.page-banner
+        img.banner-1
+        img.banner-2
+
+
+
+
+
+
+
+/* ------------------------------- *\
+   #STYLE
+\* ------------------------------- */
+
+.header { transform: translateX(-100%); }
+
+.header.active { transform: translateX(100%); }
